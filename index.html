@@ -5,42 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speaks</title>
-    <style>
-        textarea{
-            width: 50rem;
-            height: 15rem;
-            display: block;
-            padding: 1rem;
-            margin: auto;
-        }
-
-        #txt-output{
-            width: 50rem;
-            height: 15rem;
-            border: solid black;
-            margin: auto;
-            display: block;
-            padding: 1rem   ;
-           
-        }
-
-        div{
-            font-size: large;
-            padding: 1rem;
-            font-weight: bold;
-        }
-    </style>
+    <link href="/styles.css" rel="stylesheet">
       
 
 </head>
 <body>
-    <h1>Banana Speaks</h1>
-<textarea id="txt-input" placeholder="Put your sentence in English "></textarea>
-    <button id="btn-translate">translate</button>
+    <h1 class="header">Banana Speaks</h1>
+    <br>
+    <br>
+<textarea class="input-box" id="txt-input" placeholder="Put your sentence in English "></textarea>
+    <button class="button" id="btn-translate">translate</button>
 
-    <div >Output will be shown here 👇</div>
-    <div id="txt-output"></div>
+    <div class="text" >Output will be shown here 👇</div>
+    <div class="output-box" id="txt-output"></div>
 
     <script src="code.js" type="text/javascript"></script>
 </body>
+
+
+<footer class="footer">
+    <ol>
+        <li class="inline"><a href="https://www.instagram.com/_omkarpatil___/?hl=en"><img class="icon" src="/Images/instagram.svg"></li>
+        <li class="inline"><a href="https://github.com/OmkarPatil50"><img class="icon" src="/Images/GitHub-Mark-64px.png" ></a></li>
+        <li class="inline"><a href="https://twitter.com/Omee50"><img class="icon" src="/Images/twitter-logo-2429.svg" ></a></li>
+        <li class="inline"><a href="https://www.linkedin.com/in/omkardpatil/"><img class="icon" src="/Images/linkedin-130.svg" > </a></li>
+    </ol>
+<br>
+
+
+
+<div class="inline">Made with 🤍 for self</div>
+</footer>
 </html>

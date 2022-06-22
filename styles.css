@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Secular+One&family=Zilla+Slab&display=swap');
+
+
+:root{
+    --primary-color:#fde047;
+
+}
+
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.header{
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    background-color: var(--primary-color);
+    font-size:50px;
+    
+}
+
+
+.input-box {
+    width: 50rem;
+    height: 15rem;
+    display: block;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+.button{
+margin: auto;
+display: block;
+margin-top: 3rem;
+margin-bottom: 3rem;
+padding: 0.5rem;
+border-radius: 2rem;
+background-color: #facc15;
+border-color: white ;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: x-large;
+}
+
+
+.output-box {
+    width: 50rem;
+    height: 15rem;
+    border: solid black;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+ 
+}
+
+.inline{
+    display: inline;
+    font-weight: bold;
+    
+}
+
+.icon{
+    margin-left: 0;
+    max-width: 30px;
+    max-height: 30px;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+.footer{
+    margin: 0;
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 2rem;
+    text-align: center;
+}
+
+
